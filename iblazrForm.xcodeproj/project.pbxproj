@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A0AA3F601C3495120025E69F /* iblazrForm */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0AA3FD31C3495150025E69F /* Build configuration list for PBXAggregateTarget "iblazrForm" */;
+			buildPhases = (
+				A0AA3F5F1C3495120025E69F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = iblazrForm;
+			productName = iblazrForm;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A0AA3F6A1C3495120025E69F /* iblazrFormFormPlugin-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3F691C3495120025E69F /* iblazrFormFormPlugin-Prefix.pch */; };
+		A0AA3F6D1C3495140025E69F /* Former.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3F6C1C3495140025E69F /* Former.framework */; };
+		A0AA3F6F1C3495140025E69F /* RelativeInterfaceMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3F6E1C3495140025E69F /* RelativeInterfaceMac.framework */; };
+		A0AA3F721C3495140025E69F /* iblazrFormPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3F711C3495140025E69F /* iblazrFormPlugin.m */; };
+		A0AA3F751C3495140025E69F /* iblazrFormNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3F741C3495140025E69F /* iblazrFormNode.m */; };
+		A0AA3F801C3495140025E69F /* iblazrFormPerformPlugin-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3F7F1C3495140025E69F /* iblazrFormPerformPlugin-Prefix.pch */; };
+		A0AA3F831C3495140025E69F /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3F821C3495140025E69F /* Performer.framework */; };
+		A0AA3F851C3495150025E69F /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3F841C3495150025E69F /* RelativeInterface.framework */; };
+		A0AA3F871C3495150025E69F /* iblazrFormPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3F861C3495150025E69F /* iblazrFormPatch.h */; };
+		A0AA3F891C3495150025E69F /* iblazrFormPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3F881C3495150025E69F /* iblazrFormPatch.m */; };
+		A0AA3F941C3495150025E69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3F931C3495150025E69F /* main.m */; };
+		A0AA3F971C3495150025E69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3F961C3495150025E69F /* AppDelegate.m */; };
+		A0AA3F9A1C3495150025E69F /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3F991C3495150025E69F /* ConnectViewController.m */; };
+		A0AA3F9C1C3495150025E69F /* iblazrFormViewer-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3F9B1C3495150025E69F /* iblazrFormViewer-Prefix.pch */; };
+		A0AA3F9E1C3495150025E69F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3F9D1C3495150025E69F /* Images.xcassets */; };
+		A0AA3FA01C3495150025E69F /* Connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3F9F1C3495150025E69F /* Connect@2x.png */; };
+		A0AA3FA31C3495150025E69F /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FA21C3495150025E69F /* MaterialIcons-Regular.ttf */; };
+		A0AA3FA51C3495150025E69F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FA41C3495150025E69F /* Roboto-Black.ttf */; };
+		A0AA3FA71C3495150025E69F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FA61C3495150025E69F /* Roboto-BlackItalic.ttf */; };
+		A0AA3FA91C3495150025E69F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FA81C3495150025E69F /* Roboto-Bold.ttf */; };
+		A0AA3FAB1C3495150025E69F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FAA1C3495150025E69F /* Roboto-BoldItalic.ttf */; };
+		A0AA3FAD1C3495150025E69F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FAC1C3495150025E69F /* Roboto-Italic.ttf */; };
+		A0AA3FAF1C3495150025E69F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FAE1C3495150025E69F /* Roboto-Light.ttf */; };
+		A0AA3FB11C3495150025E69F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FB01C3495150025E69F /* Roboto-LightItalic.ttf */; };
+		A0AA3FB31C3495150025E69F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FB21C3495150025E69F /* Roboto-Medium.ttf */; };
+		A0AA3FB51C3495150025E69F /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FB41C3495150025E69F /* Roboto-MediumItalic.ttf */; };
+		A0AA3FB71C3495150025E69F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FB61C3495150025E69F /* Roboto-Regular.ttf */; };
+		A0AA3FB91C3495150025E69F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FB81C3495150025E69F /* Roboto-Thin.ttf */; };
+		A0AA3FBB1C3495150025E69F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FBA1C3495150025E69F /* Roboto-ThinItalic.ttf */; };
+		A0AA3FBD1C3495150025E69F /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FBC1C3495150025E69F /* RobotoCondensed-Bold.ttf */; };
+		A0AA3FBF1C3495150025E69F /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FBE1C3495150025E69F /* RobotoCondensed-BoldItalic.ttf */; };
+		A0AA3FC11C3495150025E69F /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FC01C3495150025E69F /* RobotoCondensed-Italic.ttf */; };
+		A0AA3FC31C3495150025E69F /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FC21C3495150025E69F /* RobotoCondensed-Light.ttf */; };
+		A0AA3FC51C3495150025E69F /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FC41C3495150025E69F /* RobotoCondensed-LightItalic.ttf */; };
+		A0AA3FC71C3495150025E69F /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FC61C3495150025E69F /* RobotoCondensed-Regular.ttf */; };
+		A0AA3FCA1C3495150025E69F /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3FC91C3495150025E69F /* Performer.framework */; };
+		A0AA3FCC1C3495150025E69F /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3FCB1C3495150025E69F /* RelativeInterface.framework */; };
+		A0AA3FCF1C3495150025E69F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FCD1C3495150025E69F /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0AA3F8E1C3495150025E69F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0AA3F651C3495120025E69F /* iblazrFormFormPlugin.formplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iblazrFormFormPlugin.formplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AA3F691C3495120025E69F /* iblazrFormFormPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iblazrFormFormPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A0AA3F6C1C3495140025E69F /* Former.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Former.framework; path = ../Frameworks/Former.framework; sourceTree = "<group>"; };
+		A0AA3F6E1C3495140025E69F /* RelativeInterfaceMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterfaceMac.framework; path = ../Frameworks/RelativeInterfaceMac.framework; sourceTree = "<group>"; };
+		A0AA3F701C3495140025E69F /* iblazrFormPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iblazrFormPlugin.h; sourceTree = "<group>"; };
+		A0AA3F711C3495140025E69F /* iblazrFormPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iblazrFormPlugin.m; sourceTree = "<group>"; };
+		A0AA3F731C3495140025E69F /* iblazrFormNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iblazrFormNode.h; sourceTree = "<group>"; };
+		A0AA3F741C3495140025E69F /* iblazrFormNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iblazrFormNode.m; sourceTree = "<group>"; };
+		A0AA3F761C3495140025E69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0AA3F7C1C3495140025E69F /* iblazrFormPerformPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iblazrFormPerformPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AA3F7F1C3495140025E69F /* iblazrFormPerformPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iblazrFormPerformPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A0AA3F821C3495140025E69F /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
+		A0AA3F841C3495150025E69F /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
+		A0AA3F861C3495150025E69F /* iblazrFormPatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iblazrFormPatch.h; sourceTree = "<group>"; };
+		A0AA3F881C3495150025E69F /* iblazrFormPatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iblazrFormPatch.m; sourceTree = "<group>"; };
+		A0AA3F8A1C3495150025E69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0AA3F901C3495150025E69F /* iblazrFormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iblazrFormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AA3F931C3495150025E69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0AA3F951C3495150025E69F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0AA3F961C3495150025E69F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0AA3F981C3495150025E69F /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		A0AA3F991C3495150025E69F /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		A0AA3F9B1C3495150025E69F /* iblazrFormViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iblazrFormViewer-Prefix.pch"; sourceTree = "<group>"; };
+		A0AA3F9D1C3495150025E69F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0AA3F9F1C3495150025E69F /* Connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connect@2x.png"; sourceTree = "<group>"; };
+		A0AA3FA21C3495150025E69F /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		A0AA3FA41C3495150025E69F /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A0AA3FA61C3495150025E69F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FA81C3495150025E69F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A0AA3FAA1C3495150025E69F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FAC1C3495150025E69F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A0AA3FAE1C3495150025E69F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A0AA3FB01C3495150025E69F /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FB21C3495150025E69F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A0AA3FB41C3495150025E69F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FB61C3495150025E69F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A0AA3FB81C3495150025E69F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A0AA3FBA1C3495150025E69F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FBC1C3495150025E69F /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		A0AA3FBE1C3495150025E69F /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FC01C3495150025E69F /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		A0AA3FC21C3495150025E69F /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		A0AA3FC41C3495150025E69F /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		A0AA3FC61C3495150025E69F /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		A0AA3FC91C3495150025E69F /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
+		A0AA3FCB1C3495150025E69F /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
+		A0AA3FCE1C3495150025E69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0AA3FD01C3495150025E69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0AA3F621C3495120025E69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F6F1C3495140025E69F /* RelativeInterfaceMac.framework in Frameworks */,
+				A0AA3F6D1C3495140025E69F /* Former.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AA3F781C3495140025E69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F851C3495150025E69F /* RelativeInterface.framework in Frameworks */,
+				A0AA3F831C3495140025E69F /* Performer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AA3F8C1C3495150025E69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3FCC1C3495150025E69F /* RelativeInterface.framework in Frameworks */,
+				A0AA3FCA1C3495150025E69F /* Performer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0AA3F5A1C3495120025E69F = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F671C3495120025E69F /* iblazrFormFormPlugin */,
+				A0AA3F7D1C3495140025E69F /* iblazrFormPerformPlugin */,
+				A0AA3F911C3495150025E69F /* iblazrFormViewer */,
+				A0AA3F661C3495120025E69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0AA3F661C3495120025E69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F651C3495120025E69F /* iblazrFormFormPlugin.formplugin */,
+				A0AA3F7C1C3495140025E69F /* iblazrFormPerformPlugin.framework */,
+				A0AA3F901C3495150025E69F /* iblazrFormViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0AA3F671C3495120025E69F /* iblazrFormFormPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F701C3495140025E69F /* iblazrFormPlugin.h */,
+				A0AA3F711C3495140025E69F /* iblazrFormPlugin.m */,
+				A0AA3F731C3495140025E69F /* iblazrFormNode.h */,
+				A0AA3F741C3495140025E69F /* iblazrFormNode.m */,
+				A0AA3F761C3495140025E69F /* Info.plist */,
+				A0AA3F6B1C3495140025E69F /* Frameworks */,
+				A0AA3F681C3495120025E69F /* Supporting Files */,
+			);
+			path = iblazrFormFormPlugin;
+			sourceTree = "<group>";
+		};
+		A0AA3F681C3495120025E69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F691C3495120025E69F /* iblazrFormFormPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0AA3F6B1C3495140025E69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F6C1C3495140025E69F /* Former.framework */,
+				A0AA3F6E1C3495140025E69F /* RelativeInterfaceMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0AA3F7D1C3495140025E69F /* iblazrFormPerformPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F861C3495150025E69F /* iblazrFormPatch.h */,
+				A0AA3F881C3495150025E69F /* iblazrFormPatch.m */,
+				A0AA3F8A1C3495150025E69F /* Info.plist */,
+				A0AA3F811C3495140025E69F /* Frameworks */,
+				A0AA3F7E1C3495140025E69F /* Supporting Files */,
+			);
+			path = iblazrFormPerformPlugin;
+			sourceTree = "<group>";
+		};
+		A0AA3F7E1C3495140025E69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F7F1C3495140025E69F /* iblazrFormPerformPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0AA3F811C3495140025E69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F821C3495140025E69F /* Performer.framework */,
+				A0AA3F841C3495150025E69F /* RelativeInterface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0AA3F911C3495150025E69F /* iblazrFormViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F951C3495150025E69F /* AppDelegate.h */,
+				A0AA3F961C3495150025E69F /* AppDelegate.m */,
+				A0AA3F981C3495150025E69F /* ConnectViewController.h */,
+				A0AA3F991C3495150025E69F /* ConnectViewController.m */,
+				A0AA3F9D1C3495150025E69F /* Images.xcassets */,
+				A0AA3F9F1C3495150025E69F /* Connect@2x.png */,
+				A0AA3FCD1C3495150025E69F /* LaunchScreen.xib */,
+				A0AA3FD01C3495150025E69F /* Info.plist */,
+				A0AA3FA11C3495150025E69F /* Fonts */,
+				A0AA3FC81C3495150025E69F /* Frameworks */,
+				A0AA3F921C3495150025E69F /* Supporting Files */,
+			);
+			path = iblazrFormViewer;
+			sourceTree = "<group>";
+		};
+		A0AA3F921C3495150025E69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3F931C3495150025E69F /* main.m */,
+				A0AA3F9B1C3495150025E69F /* iblazrFormViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0AA3FA11C3495150025E69F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3FA21C3495150025E69F /* MaterialIcons-Regular.ttf */,
+				A0AA3FA41C3495150025E69F /* Roboto-Black.ttf */,
+				A0AA3FA61C3495150025E69F /* Roboto-BlackItalic.ttf */,
+				A0AA3FA81C3495150025E69F /* Roboto-Bold.ttf */,
+				A0AA3FAA1C3495150025E69F /* Roboto-BoldItalic.ttf */,
+				A0AA3FAC1C3495150025E69F /* Roboto-Italic.ttf */,
+				A0AA3FAE1C3495150025E69F /* Roboto-Light.ttf */,
+				A0AA3FB01C3495150025E69F /* Roboto-LightItalic.ttf */,
+				A0AA3FB21C3495150025E69F /* Roboto-Medium.ttf */,
+				A0AA3FB41C3495150025E69F /* Roboto-MediumItalic.ttf */,
+				A0AA3FB61C3495150025E69F /* Roboto-Regular.ttf */,
+				A0AA3FB81C3495150025E69F /* Roboto-Thin.ttf */,
+				A0AA3FBA1C3495150025E69F /* Roboto-ThinItalic.ttf */,
+				A0AA3FBC1C3495150025E69F /* RobotoCondensed-Bold.ttf */,
+				A0AA3FBE1C3495150025E69F /* RobotoCondensed-BoldItalic.ttf */,
+				A0AA3FC01C3495150025E69F /* RobotoCondensed-Italic.ttf */,
+				A0AA3FC21C3495150025E69F /* RobotoCondensed-Light.ttf */,
+				A0AA3FC41C3495150025E69F /* RobotoCondensed-LightItalic.ttf */,
+				A0AA3FC61C3495150025E69F /* RobotoCondensed-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		A0AA3FC81C3495150025E69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3FC91C3495150025E69F /* Performer.framework */,
+				A0AA3FCB1C3495150025E69F /* RelativeInterface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0AA3F791C3495140025E69F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F801C3495140025E69F /* iblazrFormPerformPlugin-Prefix.pch in Headers */,
+				A0AA3F871C3495150025E69F /* iblazrFormPatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0AA3F641C3495120025E69F /* iblazrFormFormPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AA3FD61C3495150025E69F /* Build configuration list for PBXNativeTarget "iblazrFormFormPlugin" */;
+			buildPhases = (
+				A0AA3F611C3495120025E69F /* Sources */,
+				A0AA3F621C3495120025E69F /* Frameworks */,
+				A0AA3F631C3495120025E69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iblazrFormFormPlugin;
+			productName = iblazrFormFormPlugin;
+			productReference = A0AA3F651C3495120025E69F /* iblazrFormFormPlugin.formplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A0AA3F7B1C3495140025E69F /* iblazrFormPerformPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AA3FD91C3495150025E69F /* Build configuration list for PBXNativeTarget "iblazrFormPerformPlugin" */;
+			buildPhases = (
+				A0AA3F771C3495140025E69F /* Sources */,
+				A0AA3F781C3495140025E69F /* Frameworks */,
+				A0AA3F791C3495140025E69F /* Headers */,
+				A0AA3F7A1C3495140025E69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iblazrFormPerformPlugin;
+			productName = iblazrFormPerformPlugin;
+			productReference = A0AA3F7C1C3495140025E69F /* iblazrFormPerformPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0AA3F8F1C3495150025E69F /* iblazrFormViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AA3FDC1C3495150025E69F /* Build configuration list for PBXNativeTarget "iblazrFormViewer" */;
+			buildPhases = (
+				A0AA3F8B1C3495150025E69F /* Sources */,
+				A0AA3F8C1C3495150025E69F /* Frameworks */,
+				A0AA3F8D1C3495150025E69F /* Resources */,
+				A0AA3F8E1C3495150025E69F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iblazrFormViewer;
+			productName = iblazrFormViewer;
+			productReference = A0AA3F901C3495150025E69F /* iblazrFormViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0AA3F5B1C3495120025E69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Just Add Music Media";
+				TargetAttributes = {
+					A0AA3F601C3495120025E69F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A0AA3F641C3495120025E69F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A0AA3F7B1C3495140025E69F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A0AA3F8F1C3495150025E69F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A0AA3F5E1C3495120025E69F /* Build configuration list for PBXProject "iblazrForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0AA3F5A1C3495120025E69F;
+			productRefGroup = A0AA3F661C3495120025E69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0AA3F601C3495120025E69F /* iblazrForm */,
+				A0AA3F641C3495120025E69F /* iblazrFormFormPlugin */,
+				A0AA3F7B1C3495140025E69F /* iblazrFormPerformPlugin */,
+				A0AA3F8F1C3495150025E69F /* iblazrFormViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0AA3F631C3495120025E69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F6A1C3495120025E69F /* iblazrFormFormPlugin-Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AA3F7A1C3495140025E69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AA3F8D1C3495150025E69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3FA91C3495150025E69F /* Roboto-Bold.ttf in Resources */,
+				A0AA3FB11C3495150025E69F /* Roboto-LightItalic.ttf in Resources */,
+				A0AA3FC11C3495150025E69F /* RobotoCondensed-Italic.ttf in Resources */,
+				A0AA3FBF1C3495150025E69F /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				A0AA3FB51C3495150025E69F /* Roboto-MediumItalic.ttf in Resources */,
+				A0AA3FAD1C3495150025E69F /* Roboto-Italic.ttf in Resources */,
+				A0AA3FAF1C3495150025E69F /* Roboto-Light.ttf in Resources */,
+				A0AA3F9C1C3495150025E69F /* iblazrFormViewer-Prefix.pch in Resources */,
+				A0AA3FAB1C3495150025E69F /* Roboto-BoldItalic.ttf in Resources */,
+				A0AA3FA71C3495150025E69F /* Roboto-BlackItalic.ttf in Resources */,
+				A0AA3FB91C3495150025E69F /* Roboto-Thin.ttf in Resources */,
+				A0AA3FB71C3495150025E69F /* Roboto-Regular.ttf in Resources */,
+				A0AA3FC51C3495150025E69F /* RobotoCondensed-LightItalic.ttf in Resources */,
+				A0AA3F9E1C3495150025E69F /* Images.xcassets in Resources */,
+				A0AA3FC71C3495150025E69F /* RobotoCondensed-Regular.ttf in Resources */,
+				A0AA3FCF1C3495150025E69F /* LaunchScreen.xib in Resources */,
+				A0AA3FB31C3495150025E69F /* Roboto-Medium.ttf in Resources */,
+				A0AA3FC31C3495150025E69F /* RobotoCondensed-Light.ttf in Resources */,
+				A0AA3FBB1C3495150025E69F /* Roboto-ThinItalic.ttf in Resources */,
+				A0AA3FBD1C3495150025E69F /* RobotoCondensed-Bold.ttf in Resources */,
+				A0AA3FA51C3495150025E69F /* Roboto-Black.ttf in Resources */,
+				A0AA3FA01C3495150025E69F /* Connect@2x.png in Resources */,
+				A0AA3FA31C3495150025E69F /* MaterialIcons-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0AA3F5F1C3495120025E69F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${BUILD_DIR}\"\n\n## Build all of the Xcode configurations.\n# Mac\nxcodebuild -project \"${PROJECT_DIR}/iblazrForm.xcodeproj\" -scheme iblazrFormFormPlugin -configuration Release BUILD_DIR=\"${BUILD_DIR}\"\n\n# iOS\nxcodebuild -project \"${PROJECT_DIR}/iblazrForm.xcodeproj\" -scheme iblazrFormPerformPlugin -configuration Release -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\"\nxcodebuild -project \"${PROJECT_DIR}/iblazrForm.xcodeproj\" -scheme iblazrFormPerformPlugin -configuration Release -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\"\n\n# Create the destination directory.\nDEST_DIR=./iblazrForm\nrm -rf $DEST_DIR\nmkdir -p \"$DEST_DIR/iblazrForm.formplugin\"\n\n# Copy the OSX build\ncp -fR \"./Release/iblazrFormFormPlugin.formplugin/\" \"$DEST_DIR/iblazrForm.formplugin/\"\n\n# Copy the iOS build\ncp -fR \"./Release-iphoneos/iblazrFormPerformPlugin.framework\" \"$DEST_DIR/iblazrFormPerformPlugin.framework\"\n\n# lipo the iOS build\nlipo -create \"${BUILD_DIR}/Release-iphonesimulator/iblazrFormPerformPlugin.framework/iblazrFormPerformPlugin\" \"${BUILD_DIR}/Release-iphoneos/iblazrFormPerformPlugin.framework/iblazrFormPerformPlugin\" -output \"$DEST_DIR/iblazrFormPerformPlugin.framework/iblazrFormPerformPlugin\"\n\n# Copy the iOS build into the OSX plugin for safe keeping\nmkdir -p \"$DEST_DIR/iblazrForm.formplugin/Contents/Perform/\"\ncp -fR \"$DEST_DIR/iblazrFormPerformPlugin.framework\" \"$DEST_DIR/iblazrForm.formplugin/Contents/Perform/\"\n\n# Install plugin\nmkdir -p \"$HOME/Library/Application Support/Form/PlugIns/\"\ncp -fR \"$DEST_DIR/iblazrForm.formplugin\" \"$HOME/Library/Application Support/Form/PlugIns/\"\n\n# Reveal the finished plugin if we're archiving\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    open --reveal $DEST_DIR\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0AA3F611C3495120025E69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F721C3495140025E69F /* iblazrFormPlugin.m in Sources */,
+				A0AA3F751C3495140025E69F /* iblazrFormNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AA3F771C3495140025E69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F891C3495150025E69F /* iblazrFormPatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AA3F8B1C3495150025E69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA3F971C3495150025E69F /* AppDelegate.m in Sources */,
+				A0AA3F9A1C3495150025E69F /* ConnectViewController.m in Sources */,
+				A0AA3F941C3495150025E69F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0AA3FCD1C3495150025E69F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0AA3FCE1C3495150025E69F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0AA3FD11C3495150025E69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		A0AA3FD21C3495150025E69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		A0AA3FD41C3495150025E69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0AA3FD51C3495150025E69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0AA3FD71C3495150025E69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "iblazrFormFormPlugin/iblazrFormFormPlugin-Prefix.pch";
+				INFOPLIST_FILE = iblazrFormFormPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.iblazrFormFormPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = formplugin;
+			};
+			name = Debug;
+		};
+		A0AA3FD81C3495150025E69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "iblazrFormFormPlugin/iblazrFormFormPlugin-Prefix.pch";
+				INFOPLIST_FILE = iblazrFormFormPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.iblazrFormFormPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = formplugin;
+			};
+			name = Release;
+		};
+		A0AA3FDA1C3495150025E69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iblazrFormPerformPlugin/iblazrFormPerformPlugin-Prefix.pch";
+				INFOPLIST_FILE = iblazrFormPerformPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.iblazrFormPerformPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0AA3FDB1C3495150025E69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iblazrFormPerformPlugin/iblazrFormPerformPlugin-Prefix.pch";
+				INFOPLIST_FILE = iblazrFormPerformPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.iblazrFormPerformPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0AA3FDD1C3495150025E69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iblazrFormViewer/iblazrFormViewer-Prefix.pch";
+				INFOPLIST_FILE = iblazrFormViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.iblazrFormViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0AA3FDE1C3495150025E69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iblazrFormViewer/iblazrFormViewer-Prefix.pch";
+				INFOPLIST_FILE = iblazrFormViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.iblazrFormViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0AA3F5E1C3495120025E69F /* Build configuration list for PBXProject "iblazrForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA3FD11C3495150025E69F /* Debug */,
+				A0AA3FD21C3495150025E69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AA3FD31C3495150025E69F /* Build configuration list for PBXAggregateTarget "iblazrForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA3FD41C3495150025E69F /* Debug */,
+				A0AA3FD51C3495150025E69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0AA3FD61C3495150025E69F /* Build configuration list for PBXNativeTarget "iblazrFormFormPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA3FD71C3495150025E69F /* Debug */,
+				A0AA3FD81C3495150025E69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0AA3FD91C3495150025E69F /* Build configuration list for PBXNativeTarget "iblazrFormPerformPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA3FDA1C3495150025E69F /* Debug */,
+				A0AA3FDB1C3495150025E69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0AA3FDC1C3495150025E69F /* Build configuration list for PBXNativeTarget "iblazrFormViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA3FDD1C3495150025E69F /* Debug */,
+				A0AA3FDE1C3495150025E69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0AA3F5B1C3495120025E69F /* Project object */;
+}
