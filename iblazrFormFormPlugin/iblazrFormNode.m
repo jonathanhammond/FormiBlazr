@@ -11,7 +11,7 @@
 @implementation iblazrFormNode
 
 + (NSString *)defaultName {
-    return @"iblazrForm";
+    return @"iblazr";
 }
 
 + (NSString *)processClassName {
@@ -21,7 +21,11 @@
 - (instancetype)init {
     if ((self = [super init]) != nil) {
         // Inputs
-        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"On / Off" uniqueKey:@"Form.onOffInput" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
+        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"Time" uniqueKey:@"Form.time" defaultValue:[PMRPrimitive primitiveWithNumberValue:0.0f]] portGroup:nil];
+        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"Light Temperature" uniqueKey:@"Form.lightTemperature" defaultValue:[PMRPrimitive primitiveWithNumberValue:0.0f]] portGroup:nil];
+        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"Light Power" uniqueKey:@"Form.lightPower" defaultValue:[PMRPrimitive primitiveWithNumberValue:0.0f]] portGroup:nil];
+        
+        
         
         // Outputs
         [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Color" uniqueKey:@"Form.colorOutput"] portGroup:nil];

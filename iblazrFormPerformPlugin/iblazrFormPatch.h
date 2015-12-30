@@ -7,10 +7,14 @@
 //
 
 #import <Performer/Performer.h>
+#import "STDeviceManager.h"
 
-@interface iblazrFormPatch : PMRPatch
+@interface iblazrFormPatch : PMRPatch <STDeviceManagerDelegate>
+//@interface ViewController : UIViewController <STDeviceManagerDelegate>
 
-@property (nonatomic, readonly) PMRPrimitiveInputPort *onOffInput;
+@property (nonatomic, readonly) PMRPrimitiveInputPort *time;
+@property (nonatomic, readonly) PMRPrimitiveInputPort *lightTemperature;
+@property (nonatomic, readonly) PMRPrimitiveInputPort *lightPower;
 @property (nonatomic, readonly) PMRPrimitiveOutputPort *colorOutput;
 
 @end

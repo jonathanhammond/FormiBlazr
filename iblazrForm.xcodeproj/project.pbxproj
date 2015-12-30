@@ -59,6 +59,24 @@
 		A0AA3FCA1C3495150025E69F /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3FC91C3495150025E69F /* Performer.framework */; };
 		A0AA3FCC1C3495150025E69F /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3FCB1C3495150025E69F /* RelativeInterface.framework */; };
 		A0AA3FCF1C3495150025E69F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FCD1C3495150025E69F /* LaunchScreen.xib */; };
+		A0AA3FEF1C3495480025E69F /* BTController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FE01C3495480025E69F /* BTController.h */; };
+		A0AA3FF01C3495480025E69F /* BTController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3FE11C3495480025E69F /* BTController.m */; };
+		A0AA3FF11C3495480025E69F /* iblazr_for_shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AA3FE21C3495480025E69F /* iblazr_for_shop@2x.png */; };
+		A0AA3FF21C3495480025E69F /* STDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FE31C3495480025E69F /* STDevice.h */; };
+		A0AA3FF31C3495480025E69F /* STDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3FE41C3495480025E69F /* STDevice.m */; };
+		A0AA3FF41C3495480025E69F /* STDeviceIblazr2.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FE51C3495480025E69F /* STDeviceIblazr2.h */; };
+		A0AA3FF51C3495480025E69F /* STDeviceIblazr2.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3FE61C3495480025E69F /* STDeviceIblazr2.m */; };
+		A0AA3FF61C3495480025E69F /* STDeviceIblazrOriginal.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FE71C3495480025E69F /* STDeviceIblazrOriginal.h */; };
+		A0AA3FF71C3495480025E69F /* STDeviceIblazrOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3FE81C3495480025E69F /* STDeviceIblazrOriginal.m */; };
+		A0AA3FF81C3495480025E69F /* STDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FE91C3495480025E69F /* STDeviceManager.h */; };
+		A0AA3FF91C3495480025E69F /* STDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3FEA1C3495480025E69F /* STDeviceManager.m */; };
+		A0AA3FFA1C3495480025E69F /* STDeviceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FEB1C3495480025E69F /* STDeviceTypes.h */; };
+		A0AA3FFB1C3495480025E69F /* ToneGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AA3FED1C3495480025E69F /* ToneGenerator.h */; };
+		A0AA3FFC1C3495480025E69F /* ToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA3FEE1C3495480025E69F /* ToneGenerator.m */; };
+		A0AA3FFD1C3495910025E69F /* iblazrFormPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA3F7C1C3495140025E69F /* iblazrFormPerformPlugin.framework */; };
+		A0AA3FFE1C34959A0025E69F /* Performer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0AA3FC91C3495150025E69F /* Performer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0AA3FFF1C34959A0025E69F /* RelativeInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0AA3FCB1C3495150025E69F /* RelativeInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0AA40001C34959A0025E69F /* iblazrFormPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0AA3F7C1C3495140025E69F /* iblazrFormPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +86,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A0AA3FFE1C34959A0025E69F /* Performer.framework in CopyFiles */,
+				A0AA3FFF1C34959A0025E69F /* RelativeInterface.framework in CopyFiles */,
+				A0AA40001C34959A0025E69F /* iblazrFormPerformPlugin.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +143,20 @@
 		A0AA3FCB1C3495150025E69F /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
 		A0AA3FCE1C3495150025E69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0AA3FD01C3495150025E69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0AA3FE01C3495480025E69F /* BTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTController.h; sourceTree = "<group>"; };
+		A0AA3FE11C3495480025E69F /* BTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTController.m; sourceTree = "<group>"; };
+		A0AA3FE21C3495480025E69F /* iblazr_for_shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iblazr_for_shop@2x.png"; sourceTree = "<group>"; };
+		A0AA3FE31C3495480025E69F /* STDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDevice.h; sourceTree = "<group>"; };
+		A0AA3FE41C3495480025E69F /* STDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDevice.m; sourceTree = "<group>"; };
+		A0AA3FE51C3495480025E69F /* STDeviceIblazr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceIblazr2.h; sourceTree = "<group>"; };
+		A0AA3FE61C3495480025E69F /* STDeviceIblazr2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceIblazr2.m; sourceTree = "<group>"; };
+		A0AA3FE71C3495480025E69F /* STDeviceIblazrOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceIblazrOriginal.h; sourceTree = "<group>"; };
+		A0AA3FE81C3495480025E69F /* STDeviceIblazrOriginal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceIblazrOriginal.m; sourceTree = "<group>"; };
+		A0AA3FE91C3495480025E69F /* STDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceManager.h; sourceTree = "<group>"; };
+		A0AA3FEA1C3495480025E69F /* STDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceManager.m; sourceTree = "<group>"; };
+		A0AA3FEB1C3495480025E69F /* STDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceTypes.h; sourceTree = "<group>"; };
+		A0AA3FED1C3495480025E69F /* ToneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneGenerator.h; sourceTree = "<group>"; };
+		A0AA3FEE1C3495480025E69F /* ToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AA3FFD1C3495910025E69F /* iblazrFormPerformPlugin.framework in Frameworks */,
 				A0AA3FCC1C3495150025E69F /* RelativeInterface.framework in Frameworks */,
 				A0AA3FCA1C3495150025E69F /* Performer.framework in Frameworks */,
 			);
@@ -209,6 +245,7 @@
 		A0AA3F7D1C3495140025E69F /* iblazrFormPerformPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				A0AA3FDF1C3495480025E69F /* IBLAZRSDK */,
 				A0AA3F861C3495150025E69F /* iblazrFormPatch.h */,
 				A0AA3F881C3495150025E69F /* iblazrFormPatch.m */,
 				A0AA3F8A1C3495150025E69F /* Info.plist */,
@@ -297,6 +334,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0AA3FDF1C3495480025E69F /* IBLAZRSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3FE01C3495480025E69F /* BTController.h */,
+				A0AA3FE11C3495480025E69F /* BTController.m */,
+				A0AA3FE21C3495480025E69F /* iblazr_for_shop@2x.png */,
+				A0AA3FE31C3495480025E69F /* STDevice.h */,
+				A0AA3FE41C3495480025E69F /* STDevice.m */,
+				A0AA3FE51C3495480025E69F /* STDeviceIblazr2.h */,
+				A0AA3FE61C3495480025E69F /* STDeviceIblazr2.m */,
+				A0AA3FE71C3495480025E69F /* STDeviceIblazrOriginal.h */,
+				A0AA3FE81C3495480025E69F /* STDeviceIblazrOriginal.m */,
+				A0AA3FE91C3495480025E69F /* STDeviceManager.h */,
+				A0AA3FEA1C3495480025E69F /* STDeviceManager.m */,
+				A0AA3FEB1C3495480025E69F /* STDeviceTypes.h */,
+				A0AA3FEC1C3495480025E69F /* ToneGenerator */,
+			);
+			path = IBLAZRSDK;
+			sourceTree = "<group>";
+		};
+		A0AA3FEC1C3495480025E69F /* ToneGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				A0AA3FED1C3495480025E69F /* ToneGenerator.h */,
+				A0AA3FEE1C3495480025E69F /* ToneGenerator.m */,
+			);
+			path = ToneGenerator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -304,8 +370,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AA3FF41C3495480025E69F /* STDeviceIblazr2.h in Headers */,
+				A0AA3FFA1C3495480025E69F /* STDeviceTypes.h in Headers */,
+				A0AA3FFB1C3495480025E69F /* ToneGenerator.h in Headers */,
 				A0AA3F801C3495140025E69F /* iblazrFormPerformPlugin-Prefix.pch in Headers */,
+				A0AA3FF81C3495480025E69F /* STDeviceManager.h in Headers */,
 				A0AA3F871C3495150025E69F /* iblazrFormPatch.h in Headers */,
+				A0AA3FEF1C3495480025E69F /* BTController.h in Headers */,
+				A0AA3FF61C3495480025E69F /* STDeviceIblazrOriginal.h in Headers */,
+				A0AA3FF21C3495480025E69F /* STDevice.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +458,7 @@
 					};
 					A0AA3F8F1C3495150025E69F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KS8AT8QB64;
 					};
 				};
 			};
@@ -422,6 +496,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AA3FF11C3495480025E69F /* iblazr_for_shop@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +562,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AA3FF71C3495480025E69F /* STDeviceIblazrOriginal.m in Sources */,
 				A0AA3F891C3495150025E69F /* iblazrFormPatch.m in Sources */,
+				A0AA3FFC1C3495480025E69F /* ToneGenerator.m in Sources */,
+				A0AA3FF91C3495480025E69F /* STDeviceManager.m in Sources */,
+				A0AA3FF51C3495480025E69F /* STDeviceIblazr2.m in Sources */,
+				A0AA3FF01C3495480025E69F /* BTController.m in Sources */,
+				A0AA3FF31C3495480025E69F /* STDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,6 +790,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -731,6 +813,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

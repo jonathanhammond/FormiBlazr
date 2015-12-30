@@ -12,11 +12,11 @@
 @implementation iblazrFormPlugin
 
 + (NSString *)name {
-    return @"iblazrForm";
+    return @"iblazr";
 }
 
 + (NSString *)description {
-    return @"Created by Jonathan Hammond on 30/12/2015";
+    return @"Created by Jonathan Hammond on 30/12/2015 www.justaddmusicmedia.com - https://github.com/ConcepterDev/iblazr-sdk-ios";
 }
 
 + (NSArray *)nodeClasses {
