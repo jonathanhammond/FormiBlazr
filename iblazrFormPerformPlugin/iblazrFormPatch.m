@@ -21,7 +21,7 @@
     
 
     
-   NSInteger time = _time.numberValue;
+   NSInteger time = 0;
 
     NSInteger lightTemperature = _lightTemperature.numberValue;
     NSInteger lightPower = _lightPower.numberValue;
